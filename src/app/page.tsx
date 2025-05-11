@@ -135,7 +135,6 @@ ${siteUrl}
         {/* Top Ad Banner */}
         <div className="mb-6">
           <AdBanner
-            adSlot="1234567890"
             adFormat="horizontal"
             style={{ margin: "0 auto", display: "block" }}
           />
@@ -296,7 +295,7 @@ ${siteUrl}
               <div className="space-y-6 text-center py-8">
                 {/* Mid-page Ad Banner */}
                 <div className="my-4">
-                  <AdBanner adSlot="5678901234" adFormat="rectangle" />
+                  <AdBanner adFormat="rectangle" />
                 </div>
 
                 <CheckCircle2
@@ -374,7 +373,7 @@ ${siteUrl}
 
                 {/* Bottom Ad Banner before prank reveal */}
                 <div className="my-4">
-                  <AdBanner adSlot="9876543210" adFormat="horizontal" />
+                  <AdBanner adFormat="horizontal" />
                 </div>
 
                 {/* Divider */}
@@ -418,7 +417,6 @@ ${siteUrl}
         {/* Bottom Ad Banner */}
         <div className="mt-6">
           <AdBanner
-            adSlot="5432109876"
             adFormat="horizontal"
             style={{ margin: "0 auto", display: "block" }}
           />
