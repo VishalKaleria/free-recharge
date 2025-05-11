@@ -104,13 +104,6 @@ ${siteUrl}
 
   return (
     <div className="flex flex-col min-h-screen items-center bg-gray-100 text-gray-800 font-sans">
-      {/* Google AdSense Script */}
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-        strategy="afterInteractive"
-        crossOrigin="anonymous"
-      />
 
       {/* Official Header */}
       <header className="w-full bg-white shadow-md sticky top-0 z-50">
